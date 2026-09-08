@@ -42,6 +42,9 @@
   </nav>
 <!-- cierre de header -->
 </header>
+<!-- main: landmark de accesibilidad — agrupa todo el contenido principal entre header y footer -->
+<!-- así un lector de pantalla puede saltar directo aquí, sin pasar por la navegación -->
+<main>
 <!-- section id="sobre-mi": acá aterriza el enlace "Sobre mí" del nav -->
 <!-- max-w-5xl mx-auto: limita el ancho del contenido y lo centra -->
 <!-- px-6 py-14: relleno horizontal y vertical de la sección -->
@@ -145,6 +148,8 @@
   </div>
 <!-- cierre de la sección "proyectos" -->
 </section>
+<!-- cierre de main -->
+</main>
 <!-- footer id="contacto": acá aterriza el enlace "Contacto" del nav -->
 <!-- bg-slate-900 text-white: mismo tono oscuro que el header, para cerrar la página con el mismo color -->
 <footer id="contacto" class="bg-slate-900 text-white py-14">
@@ -167,7 +172,7 @@
           minlength="2"
           placeholder="Tu nombre"
           class="w-full rounded-lg bg-slate-800 border border-slate-700
-            px-4 py-2 text-white placeholder-slate-500
+            px-4 py-2 text-white placeholder-slate-400
             focus:outline-none focus:ring-2 focus:ring-emerald-400">
       <!-- cierre del div de "Nombre" -->
       </div>
@@ -182,7 +187,7 @@
           required
           placeholder="tu@correo.com"
           class="w-full rounded-lg bg-slate-800 border border-slate-700
-            px-4 py-2 text-white placeholder-slate-500
+            px-4 py-2 text-white placeholder-slate-400
             focus:outline-none focus:ring-2 focus:ring-emerald-400">
       <!-- cierre del div de "Correo" -->
       </div>
@@ -200,7 +205,7 @@
           rows="4"
           placeholder="Escribe tu mensaje..."
           class="w-full rounded-lg bg-slate-800 border border-slate-700
-            px-4 py-2 text-white placeholder-slate-500 resize-none
+            px-4 py-2 text-white placeholder-slate-400 resize-none
             focus:outline-none focus:ring-2 focus:ring-emerald-400"></textarea>
       <!-- cierre del div de "Mensaje" -->
       </div>
